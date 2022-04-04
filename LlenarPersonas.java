@@ -7,11 +7,14 @@ import java.util.ArrayList;
    String nombres[] = { "Ana", "Luis", "Alicia", "Pedro", "Carmen", "Andrea", "Cristina", "Julio","Patricia" };
    int edades[] = { 14, 15, 13, 15, 16, 12, 16, 14, 13 };
 
+   String poblaciones []= { "Nules", "Xilxes", "La Vall", "Moncofa", "Almenara", "La llosa", "Burriana", "Vilareal","Castellon" };
+
+
    ArrayList<Persona> lista = new ArrayList<Persona>();
 
    // Llena la lista
    for (int i = 0; i < n; i++){
-      lista.add(new Persona(nombres[i], edades[i]));
+      lista.add(new Persona(nombres[i], edades[i], poblaciones[i]));
    }
 
    // Muestra la lista
